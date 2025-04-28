@@ -23,7 +23,7 @@ export default function ScheduleDemoForm() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-10 justify-center min-h-screen bg-[#3c1f3f] text-white p-6">
+    <div className="flex flex-col items-center mt-10 justify-center min-h-screen bg-[#3c1f3f] text-white p-6 pt-20">
 
       <h2 className="text-3xl font-bold mb-2">See Practio in Action</h2>
       <p className="mb-6 text-center">Schedule a 30-minute product demo with expert Q+A.</p>
