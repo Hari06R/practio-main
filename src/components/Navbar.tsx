@@ -1653,7 +1653,8 @@ function Navbar() {
 
 
             {/* Desktop Navigation Items (hidden on mobile) */}
-            <div className="hidden md:flex items-center space-x-6 text-lg font-semibold">
+            <div className="hidden md:flex items-center space-x-6 text-base font-semibold">
+
               {Object.entries(navItems).map(([title, item]) => (
                 <div key={title} className="relative">
                   {title === 'Pricing' ? (
