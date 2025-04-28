@@ -65,12 +65,12 @@ export default function Freequote() {
         <div className="w-40">
           <p className="text-yellow-300 text-lg">★★★★★</p>
           <p className="font-bold text-gray-300">SOFTWARE ADVICE</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div>
         {/* <div className="w-40">
           <p className="text-yellow-300 text-lg">★★★★★</p>
           <p className="font-bold text-gray-300">G2</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div> */}
         <div className="w-40">
           <p className="text-yellow-300 text-lg">🏆</p>
@@ -80,12 +80,12 @@ export default function Freequote() {
         {/* <div className="w-40">
           <p className="text-yellow-300 text-lg">★★★★★</p>
           <p className="font-bold text-gray-300">CAPTERRA</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div> */}
         <div className="w-40">
           <p className="text-yellow-300 text-lg">★★★★★</p>
           <p className="font-bold text-gray-300">GETAPP</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div>
       </div>
     </div>

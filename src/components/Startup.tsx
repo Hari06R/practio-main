@@ -75,8 +75,7 @@ const Startup = () => {
           {/* Rating Badge
           <div className="mt-4 flex items-center space-x-2">
             <div className="bg-yellow-400 text-black font-bold px-3 py-1 rounded">
-              BEST HR SOFTWARE
-            </div>
+              BEST HR             </div>
             <p className="text-gray-300 text-sm">Rated Best HR Software by US News</p>
           </div> */}
         </div>

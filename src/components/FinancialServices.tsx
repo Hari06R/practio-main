@@ -67,7 +67,7 @@ const FinancialServices = () => {
         <div className="w-48">
           <p className="text-yellow-300 text-2xl">★★★★★</p>
           <p className="font-bold text-gray-300 mt-2">SOFTWARE ADVICE</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div>
  
         <div className="w-48">
@@ -79,7 +79,7 @@ const FinancialServices = () => {
         <div className="w-48">
           <p className="text-yellow-300 text-2xl">★★★★★</p>
           <p className="font-bold text-gray-300 mt-2">GETAPP</p>
-          <p className="text-gray-400">4.9 </p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div>
       </div></div>
        <div className="w-full bg-[#f6f2ec] p-10 flex flex-col items-center text-center">

@@ -60,7 +60,8 @@ function App() {
 
   return (
     <Router>
-    <div className="min-h-screen bg-[#3c1f3f] flex flex-col">
+    <div className="min-h-screen flex flex-col bg-[#3c1f3f]">
+
       <Navbar />
       <Routes>
           <Route path="/hris" element={<Hris />} />
@@ -163,7 +164,41 @@ function App() {
               </button>
             </motion.div>
 
-            <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-8">
+                  <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-8">
+                    {[
+                      { name: 'SOFTWARE ADVICE', rating: '4.9 ★' },
+                      { name: 'G2', rating: '4.9 ★' },
+                      { name: 'PC MAGAZINE', rating: "Editor's Choice" },
+                      { name: 'CAPTERRA', rating: '4.9 ★' },
+                      { name: 'GETAPP', rating: '4.9 ★' },
+                    ].map((review, index) => {
+                      const [ratingText, star] = review.rating.includes('★')
+                        ? review.rating.split(' ')
+                        : [review.rating];
+
+                      return (
+                        <motion.div
+                          key={review.name}
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.6, delay: index * 0.1 }}
+                          viewport={{ once: true }}
+                          className="text-center"
+                        >
+                          <div className="text-[#F5B638] text-sm font-semibold mb-2">
+                            {review.name}
+                          </div>
+                          <div className="text-white text-sm">
+                            {ratingText}
+                            {star && <span className="text-yellow-400 text-lg ml-1">{star}</span>}
+                          </div>
+                        </motion.div>
+                      );
+                    })}
+                  </div>
+
+
+            {/* <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-8">
               {[
                 { name: 'SOFTWARE ADVICE', rating: '4.9 ⭐' },
                 { name: 'G2', rating: '4.9 ⭐' },
@@ -183,7 +218,7 @@ function App() {
                   <div className="text-white text-sm">{review.rating}</div>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
 
             {/* Business Suites Section */}
             <div className="flex items-center justify-center mt-8 md:mb-16 bg-white rounded-lg shadow-2xl">

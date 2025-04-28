@@ -83,7 +83,7 @@ const Policies = () => {
         <div className="w-48">
           <p className="text-yellow-300 text-2xl">★★★★★</p>
           <p className="font-bold text-gray-300 mt-2">SOFTWARE ADVICE</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div>
  
         <div className="w-48">
@@ -95,7 +95,7 @@ const Policies = () => {
         <div className="w-48">
           <p className="text-yellow-300 text-2xl">★★★★★</p>
           <p className="font-bold text-gray-300 mt-2">GETAPP</p>
-          <p className="text-gray-400">4.9 ⭐</p>
+          <p className="text-gray-400">4.9 <span className="text-yellow-300 text-lg">★</span></p>
         </div></div></div>
         <div className=" py-16 text-white  px-6 flex flex-col items-center text-center">
       <h4 className="text-sm font-semibold tracking-widest text-white uppercase">
