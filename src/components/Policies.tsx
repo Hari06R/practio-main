@@ -2,7 +2,7 @@ import React from "react";
 import logo11 from "../components/logo11.png";
 import logo23 from "../components/logo23.png";  
 import logo24 from "../components/logo24.png";
-import logo28 from "../components/logo28.png";
+import logo27 from "../components/logo27.png";
 import { TbReportSearch } from "react-icons/tb";
  
 import { useState } from "react";
@@ -74,7 +74,7 @@ const Policies = () => {
  
         {/* Right Image Section */}
         <div className="flex-1 flex justify-center">
-          {/* <img src={logo28} alt="Practio HR Software" className="w-full  max-w-lg  rounded-lg" /> */}
+          <img src={logo27} alt="Practio HR Software" className="w-full  max-w-lg  rounded-lg" />
         </div>
       </div>
  

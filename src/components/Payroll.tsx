@@ -83,18 +83,18 @@ const Payroll = () => {
           <div className="flex justify-center items-center">
             <div className="bg-white text-black rounded-lg p-6 shadow-md w-full max-w-lg">
               <h3 className="text-2xl font-semibold mb-4">Direct Deposits</h3>
-              <p className="text-lg mb-2">$10,128.76</p>
+              <p className="text-lg mb-2">₹ 10,128.76</p>
 
               <h3 className="text-2xl font-semibold mb-4">Total Employee Taxes</h3>
-              <p className="text-lg mb-2">$4,491.74</p>
+              <p className="text-lg mb-2">₹ 4,491.74</p>
 
               <h3 className="text-2xl font-semibold mb-4">Total Employer Taxes</h3>
-              <p className="text-lg mb-2">$1,242.64</p>
+              <p className="text-lg mb-2">₹ 1,242.64</p>
 
               <h3 className="text-2xl font-semibold mb-4">Total Debit</h3>
               <p className="text-lg mb-2 text-gray-400">Calculating</p>
 
-              <h3 className="text-3xl font-bold mt-8">$16,245</h3>
+              <h3 className="text-3xl font-bold mt-8">₹16,245</h3>
               <p className="text-lg text-gray-500">Practio will debit your account</p>
             </div>
           </div>

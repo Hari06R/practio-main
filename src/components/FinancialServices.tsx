@@ -20,7 +20,7 @@ const FinancialServices = () => {
      },
   ];
   return (
-    <div className="relative min-h-screen bg-[#3c1f3f] text-white overflow-hidden">
+    <div className="relative min-h-screen bg-[#3c1f3f] text-white overflow-hidden pt-20">
            <GridBackground/>
     <div className="flex flex-col items-center justify-center px-12 py-12">
       {/* Main Content Section */}
